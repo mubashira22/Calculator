@@ -1,0 +1,23 @@
+# Basic Calculator
+
+A simple calculator built with **HTML**, **CSS**, and **JavaScript** to perform basic arithmetic operations.
+
+## Features
+- Addition, Subtraction, Multiplication, Division
+- Clear button to reset calculations
+- Easy-to-use interface
+
+## How to Use
+1. Click the buttons to input numbers and select operations.
+2. Press `=` to get the result.
+3. Use `C` to clear the display.
+
+## Live Preview
+Check out the project here: [Calculator](https://github.com/mubashira22/Calculator)
+
+## License
+This project is licensed under the [MIT License]
+
+---
+
+Feel free to explore the code and contribute! 😊
