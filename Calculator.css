@@ -1,0 +1,125 @@
+* {
+    background-color:lavender;
+    text-align: center;
+}
+
+p {
+    font-size: 7vh;
+    color: rgb(51, 18, 13);
+    text-decoration: underline;
+}
+
+#searchInput {
+    height: 10vmin;
+    width: 70vmin; 
+    font-size: xx-large;
+    border: solid;
+}
+
+#C {
+    height: 17vmin;
+    width: 17vmin; 
+    color: white;
+    background-color: rgb(0, 41, 41);
+    border-radius: 10px;
+    font-size: 4vh;
+}
+
+#C:hover {
+    cursor: pointer;
+    background-color: rgb(0, 88, 88);
+}
+
+#CE {
+    height: 17vmin;
+    width: 17vmin; 
+    color: white;
+    background-color: rgb(0, 41, 41);
+    border-radius: 10px;
+    font-size: 4vh;  
+}
+
+#CE:hover{
+    cursor: pointer;
+    background-color: rgb(0, 88, 88);
+}
+
+#percentage {
+    height: 17vmin;
+    width: 17vmin; 
+    color: white;
+    background-color: rgb(0, 88, 88);
+
+    border-radius: 10px;
+    font-size: 4vh;
+}
+
+#percentage:hover{
+    cursor: pointer;
+    background-color: rgb(0, 41, 41);
+}
+
+#delete {
+    height: 17vmin;
+    width: 17vmin; 
+    color: white;
+    background-color: rgb(0, 41, 41);
+    border-radius: 10px;
+    font-size: 4vh;
+}
+
+#delete:hover {
+    cursor: pointer;
+    background-color: rgb(0, 88, 88);
+}
+
+.numbers {
+    display: grid;
+    grid-template-columns: repeat(4, auto); 
+    gap: 5px; 
+    justify-content: center; 
+    align-content: center;
+    height: 100vh;
+}
+
+.btn-num {
+    height: 17vmin;
+    width: 17vmin; 
+    color: white;
+    background-color: rgb(0, 88, 88);
+    font-size: 6vh;
+    border-radius: 10px;
+    text-size-adjust: 20rem;   
+}
+.btn-num:hover {
+    cursor: pointer;
+    background-color: rgb(0, 41, 41);
+}
+
+.operator-btn {
+    height: 17vmin;
+    width: 17vmin; 
+    color: white;
+    background-color: rgb(0, 41, 41);
+    border-radius: 10px;
+    font-size: 6vh;       
+}
+
+.operator-btn:hover {
+    cursor: pointer;
+    background-color: rgb(0, 88, 88);
+}
+
+#equal-to {
+    color: white;
+    background-color: chocolate;
+    border-radius: 10px;
+    height: 17vmin;
+    width: 17vmin;
+    font-size: 6vh;
+}
+
+#equal-to:hover {
+    cursor: pointer;
+    background-color: rgb(114, 56, 14);
+}
